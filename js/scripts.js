@@ -3,9 +3,10 @@ function getTriangleArea(a, h) {
         return a * h / 2
     }
     else {
-        console.log('Incorrect data')
+        return 'Incorrect data'
     }
-}
+};
+
 
 
 var triangle1Area = getTriangleArea(3, 12);
